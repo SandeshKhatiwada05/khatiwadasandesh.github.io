@@ -63,3 +63,4 @@ git push origin main
         Target: khatiwadasandesh.github.io
         Proxy status: DNS only
        ```
+    5. Enable: SSL/TLS → Full or Flexible
