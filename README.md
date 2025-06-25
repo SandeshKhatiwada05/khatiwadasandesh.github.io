@@ -57,7 +57,7 @@ git push origin main
     3. Update your domain registrar to point nameservers to Cloudflare (e.g., gina.ns.cloudflare.com, etc.)
     4. In Cloudflare DNS settings:
        Add a CNAME record:
-       ```
+       ```bash
         Type: CNAME
         Name: @
         Target: khatiwadasandesh.github.io
