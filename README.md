@@ -2,42 +2,42 @@
 
 This is my personal portfolio website built primarily using **PHP, HTML, CSS, JavaScript**, and styled with **Bootstrap**. It showcases my projects, skills, and contact information.
 
-> 🔗 Live at: [khatiwadasandesh.com.np](https://khatiwadasandesh.com.np)
+> 🔗 **Live site:** [khatiwadasandesh.com.np](https://khatiwadasandesh.com.np)
 
 ---
 
 ## 🚀 Features
 
-- Responsive & clean design
-- Projects showcase section
-- Smooth scrolling navigation
-- Contact form (PHP-based)
-- Linked with Instagram & GitHub
+- Responsive & clean design  
+- Projects showcase section  
+- Smooth scrolling navigation  
+- Contact form (PHP-based)  
+- Linked with Instagram & GitHub  
 - Hosted with custom domain using **Cloudflare + GitHub Pages**
 
 ---
 
 ## 🛠️ Built With
 
-| Technology | Usage |
-|------------|-------|
-| **HTML5**  | Structure |
-| **CSS3**   | Styling |
-| **JavaScript** | Interactivity |
-| **PHP**    | Backend form handling |
-| **Bootstrap** | Responsive layout |
-| **Cloudflare** | DNS and SSL |
-| **GitHub Pages** | Static site hosting |
+| Technology      | Purpose               |
+|----------------|------------------------|
+| **HTML5**       | Structure              |
+| **CSS3**        | Styling                |
+| **JavaScript**  | Interactivity          |
+| **PHP**         | Backend form handling  |
+| **Bootstrap**   | Responsive layout      |
+| **Cloudflare**  | DNS, SSL, and proxy    |
+| **GitHub Pages**| Static site hosting    |
 
 ---
 
 ## 🌍 Deployment Steps — GitHub Pages + Cloudflare (Custom Domain)
 
-### 1️⃣ GitHub Repository
+### 🔧 1. GitHub Repository
 
-- Create a repository named: `khatiwadasandesh.github.io`
-- Push your website files (index.php, assets, etc.) into the `main` branch.
-  
+1. Create a new repo named: `khatiwadasandesh.github.io`
+2. Push your website files (like `index.php`, `assets/`, etc.) to the `main` branch:
+
 ```bash
 git init
 git remote add origin https://github.com/yourusername/khatiwadasandesh.github.io
@@ -46,29 +46,54 @@ git commit -m "Initial commit"
 git push origin main
 ```
 
-2️⃣ Configure Custom Domain in GitHub
-  1. Go to your GitHub repo → Settings → Pages
-        Under Custom Domain, enter: khatiwadasandesh.com.np
-  2. GitHub auto-creates a CNAME file in your repo.
+---
 
-3️⃣ Setup Cloudflare (DNS + SSL + Redirects)
-    1. Go to https://cloudflare.com
-    2. Add a new site: khatiwadasandesh.com.np
-    3. Update your domain registrar to point nameservers to Cloudflare (e.g., gina.ns.cloudflare.com, etc.)
-    4. In Cloudflare DNS settings:
-       Add a CNAME record:
-       ```bash
-        Type: CNAME
-        Name: @
-        Target: khatiwadasandesh.github.io
-        Proxy status: DNS only
-       ```
-    5. Enable: SSL/TLS → Full or Flexible
+### 🌐 2. Configure Custom Domain on GitHub
 
-  📷 Preview
-Screenshots will be added later
+1. Go to `Settings > Pages` in your GitHub repository.  
+2. Under **Custom domain**, enter:
 
-📬 Contact
-📧 Email: khatiwadasandesh@gmail.com
-🔗 Instagram: @itsme__sandesh
-🌐 Website: khatiwadasandesh.com.np
+```
+khatiwadasandesh.com.np
+```
+
+3. GitHub will automatically create a `CNAME` file in the repository.
+
+---
+
+### ☁️ 3. Setup Cloudflare for DNS + SSL
+
+1. Visit [cloudflare.com](https://cloudflare.com) and sign up/login.  
+2. Add your domain: `khatiwadasandesh.com.np`  
+3. Update your **domain registrar** to use Cloudflare's nameservers (e.g., `gina.ns.cloudflare.com`, etc.).  
+4. In Cloudflare DNS settings, add the following CNAME:
+
+```
+Type:     CNAME  
+Name:     @  
+Target:   khatiwadasandesh.github.io  
+Proxy:    DNS Only
+```
+
+5. Go to **SSL/TLS > Overview** and select `Full` or `Flexible` SSL.  
+6. Your custom domain is now protected with HTTPS and deployed via GitHub.
+
+---
+
+## 📷 Preview
+
+_Screenshots will be added soon._
+
+---
+
+## 📬 Contact
+
+- 📧 Email: [khatiwadasandesh@gmail.com](mailto:khatiwadasandesh@gmail.com)  
+- 🔗 Instagram: [@itsme__sandesh](https://instagram.com/itsme__sandesh)  
+- 🌐 Website: [khatiwadasandesh.com.np](https://khatiwadasandesh.com.np)
+
+---
+
+## 📝 License
+
+Free for personal and academic use. Attribution appreciated.
