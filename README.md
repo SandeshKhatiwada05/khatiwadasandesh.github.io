@@ -50,3 +50,16 @@ git push origin main
   1. Go to your GitHub repo → Settings → Pages
         Under Custom Domain, enter: khatiwadasandesh.com.np
   2. GitHub auto-creates a CNAME file in your repo.
+
+3️⃣ Setup Cloudflare (DNS + SSL + Redirects)
+    1. Go to https://cloudflare.com
+    2. Add a new site: khatiwadasandesh.com.np
+    3. Update your domain registrar to point nameservers to Cloudflare (e.g., gina.ns.cloudflare.com, etc.)
+    4. In Cloudflare DNS settings:
+       Add a CNAME record:
+       ```
+        Type: CNAME
+        Name: @
+        Target: khatiwadasandesh.github.io
+        Proxy status: DNS only
+       ```
