@@ -40,7 +40,7 @@ This is my personal portfolio website built primarily using **PHP, HTML, CSS, Ja
 
 ```bash
 git init
-git remote add origin https://github.com/yourusername/khatiwadasandesh.github.io
+git remote add origin https://github.com/SandeshKhatiwada05/sandeshkhatiwada05.github.io
 git add .
 git commit -m "Initial commit"
 git push origin main
