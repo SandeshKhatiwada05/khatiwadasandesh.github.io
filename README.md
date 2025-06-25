@@ -44,3 +44,9 @@ git remote add origin https://github.com/yourusername/khatiwadasandesh.github.io
 git add .
 git commit -m "Initial commit"
 git push origin main
+```
+
+2️⃣ Configure Custom Domain in GitHub
+  1. Go to your GitHub repo → Settings → Pages
+        Under Custom Domain, enter: khatiwadasandesh.com.np
+  2. GitHub auto-creates a CNAME file in your repo.
