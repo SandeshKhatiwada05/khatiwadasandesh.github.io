@@ -81,6 +81,8 @@ Proxy:    DNS Only
 ---
 
 ## 📷 Preview
+![image](https://github.com/user-attachments/assets/577860cd-f94b-487d-ae98-7b590d3c541b)
+![image](https://github.com/user-attachments/assets/577860cd-f94b-487d-ae98-7b590d3c541b)
 
 
 
