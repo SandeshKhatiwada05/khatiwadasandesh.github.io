@@ -87,6 +87,7 @@ Proxy:    DNS Only
 A short screen-recorded walkthrough of the portfolio is available.
 
 > 📝 **Note:** The screen-recorded preview clip might appear in low quality due to compression — please visit the live site for the best experience.
+
 ![GIF+WEBSITE](https://github.com/user-attachments/assets/e5d57258-d360-407e-84c7-109a99171ea2)
 
 
