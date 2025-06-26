@@ -82,7 +82,7 @@ Proxy:    DNS Only
 
 ## 📷 Preview
 
-_Screenshots will be added soon._
+
 
 ---
 
