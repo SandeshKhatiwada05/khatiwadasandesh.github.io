@@ -1,6 +1,7 @@
 # 🌐 Portfolio Website — Sandesh Khatiwada
 
-This is my personal portfolio website built primarily using **PHP, HTML, CSS, JavaScript**, and styled with **Bootstrap**. It showcases my projects, skills, and contact information.
+This is my personal portfolio website designed using a **WordPress theme as the base**, further customized with **HTML, CSS, and JavaScript** to better represent my personal brand and professional skills. The site highlights my work, technical skills, and provides a simple way to connect with me.
+
 
 > 🔗 **Live site:** [khatiwadasandesh.com.np](https://khatiwadasandesh.com.np)
 
